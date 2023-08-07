@@ -1,4 +1,4 @@
-# Deploy NextJS App to S3 and CloudFront with Github Actions
+# Deploy NextJS App to S3 and CloudFront with Github Actions - Terraform
 
 ## Video
 
