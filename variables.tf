@@ -9,24 +9,9 @@ variable "tags" {
   description = "tags for all the resources, if any"
 }
 
-variable "hosted_zone" {
-  default     = null
-  description = "Route53 hosted zone"
-}
-
 variable "price_class" {
   default     = "PriceClass_All" // All
   description = "CloudFront distribution price class"
-}
-
-variable "use_default_domain" {
-  default     = false
-  description = "Use CloudFront website address without Route53 and ACM certificate"
-}
-
-variable "upload_sample_file" {
-  default     = false
-  description = "Upload sample html file to s3 bucket"
 }
 
 variable "cloudfront_min_ttl" {
